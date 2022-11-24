@@ -1,7 +1,7 @@
 /*
  * @Author: dingyuwen ding_yuwen@163.com
  * @Date: 2022-11-23 18:13:13
- * @LastEditTime: 2022-11-23 18:16:03
+ * @LastEditTime: 2022-11-24 08:59:43
  * @LastEditors: dingyuwen
  * @Description:
  */
@@ -12,18 +12,16 @@ module.exports = {
   },
   defineConstants: {
   },
-  weapp: {
-    module: {
-      postcss: {
-        autoprefixer: {
-          enable: true
-        },
-        // 小程序端样式引用本地资源内联配置
-        url: {
-          enable: true,
-          config: {
-            limit: 1024000 // 文件大小限制
-          }
+  mini: {
+    postcss: {
+      autoprefixer: {
+        enable: true
+      },
+      // 小程序端样式引用本地资源内联配置
+      url: {
+        enable: true,
+        config: {
+          limit: 1024000 // 文件大小限制
         }
       }
     }
